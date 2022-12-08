@@ -1,0 +1,105 @@
+
+
+html, body {
+    height: 100%;
+    background-color: black;
+}
+
+.generator {
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    max-width: 1400px;
+    max-height: 600px;
+    min-height: 450px;
+    height: 450px;
+    background-image: linear-gradient(black, rgb(39, 40, 40),black);
+    border-radius: 25px;
+    border: 5px double rgb(130, 81, 204);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#btn {
+    display: block;
+    font-family: cursive;
+    margin-top: 1.68%;
+    margin-right: 33%;
+    background-color:rgba(0, 0, 0, 0);
+    border: 5px double rgb(130, 81, 204);
+    border-radius: 15px;
+    font-size: 2em;
+    height: 2em;
+    max-height: 2em;
+    width: 8em;
+    color: rgb(130, 81, 204);
+}
+
+#btn:hover {
+    border-color: rgb(116, 53, 209);
+    color: rgb(116, 53, 209);
+    transform: scale(1.05)
+}
+
+.fas.fa-volume-up {
+    display: block;
+    margin-top: auto;
+    margin-right: 3%;
+    margin-bottom: auto;
+    color: rgb(130, 81, 204);
+    font-size: 4em;
+}
+
+#volume.fas.fa-volume-up:hover {
+    color: rgb(116, 53, 209);
+    transform: scale(1.05);
+}
+
+.fas.fa-volume-mute {
+    display: block;
+    margin-right: 3.57%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgba(233, 35, 35, 0.495);
+    font-size: 4em;
+}
+
+#volume.fas.fa-volume-mute:hover {
+    color: rgba(230, 20, 20, 0.82);
+    transform: scale(1.05)
+}
+
+#title {
+    display: block;
+    align-content: center;
+    font-family: cursive;
+    border-bottom: 5px double rgb(130, 81, 204); 
+    color: rgb(130, 81, 204);
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    font-size: 3.5em;
+}
+
+#name {
+    max-width: 1200px;
+    color: rgb(130, 81, 204);
+    text-align: center;
+    font-family: cursive;
+    font-size: 2.3em;
+    margin: auto;
+}
+
+.UI {
+    display: flex;
+    height: 25%;
+    max-height: 110px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
