@@ -6,9 +6,6 @@ var serv = require('http').Server(app)
 var vm = require("vm");
 var fs = require("fs");
 
-
-
-
 filePath = 'https://kit.fontawesome.com/a076d05399.js'
 
 preArray = ['The Tale of', 'Diaries of', 'A Story About', 'The Sisterhood of', 'It all Started with',
